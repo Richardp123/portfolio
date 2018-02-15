@@ -5,7 +5,7 @@ class BerritonPage extends Component {
   render() {
       
     return (
-      <div className="Berriton">
+      <div className="projectPages">
        <div className="projectDiv">
               <div className="displayImg" id="berritonProg"></div>
                 <div className="aboutProj">

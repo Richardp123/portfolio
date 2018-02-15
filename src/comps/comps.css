@@ -443,7 +443,9 @@
 }
 
 .workButs {
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
     top: 100px;
     
 }
@@ -452,7 +454,7 @@
     position: absolute;
      width: 100%;
     height: 100vh;
-    background-color: #e8f5fc;
+    background-color: #cee2ed;
 }
 
 .graphicDesign {
@@ -469,7 +471,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #D1EFFF;
+    background-color: #cee2ed;
     padding-top: 40px;
     padding-bottom: 40px;
     
@@ -490,7 +492,6 @@
 .aboutProj {
     width: 800px;
     height: auto;
-     color:#444444;
 }
 
 .aboutProj h1{
@@ -530,4 +531,24 @@
         padding-left: 5%;
         padding-right: 5%;
 }
+}
+
+/* PROJECT PAGES */
+
+.projectPages {
+    animation:fadeIn 0.5s forwards;
+    background-color: #cee2ed;
+}
+
+
+/* contact me page */
+
+.contactMePage {
+    position: absolute;
+    left: 0;
+    top: 59px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #cee2ed;
+    animation:fadeIn 0.5s forwards;
 }

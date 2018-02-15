@@ -50,7 +50,7 @@ class WebDev extends Component {
           workpage = <div className="webDevelopment">
               
               
-              //BERRITON
+             
           <div className="projectDiv">
               <div className="displayImg" id="berritonFin"></div>
                 <div className="aboutProj">
@@ -61,8 +61,7 @@ class WebDev extends Component {
                 <button className="projBut" onClick={this.goBerriton}>See This Project!</button>
           </div>
         </div>
-          //end of berriton
-                
+         
                 
                 
           </div>;
@@ -80,10 +79,9 @@ class WebDev extends Component {
       <div className="webDevDiv">
         {workpage}
         <div className="workButs">
-        <button className="workBut1" onClick={this.workbut1}>Web Development</button>
-        <button className="workBut2" onClick={this.workbut2}>Graphic Design</button>
+        <button className="workBut" onClick={this.workbut1}>Web Development</button>
+        <button className="workBut" onClick={this.workbut2}>Graphic Design</button>
         </div>
-        
       </div>
     );
   }

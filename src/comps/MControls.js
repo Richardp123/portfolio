@@ -31,6 +31,15 @@ class MControls extends Component {
         this.props.webDev(true);
     }
     
+    contactMe = () => {
+        this.props.contactMe(true); 
+    }
+    
+    toTopAndContactMe = (event) =>{
+        this.contactMe();
+        this.toTopControl();
+    }
+    
     toTopAndWebDev = (event) =>{
         this.webDev();
         this.toTopControl();
@@ -65,7 +74,7 @@ class MControls extends Component {
       <div className={activeControl}>
         <button className="aboutMe" onClick = {this.toTopAndAboutMe}>Who am I?</button>
         <button className="webDev" onClick = {this.toTopAndWebDev}>Work</button>
-        <button className="contactMe" onClick = {this.toTopControl}>Contact Me</button>
+        <button className="contactMe" onClick = {this.toTopAndContactMe}>Contact Me</button>
         <img src={DeerLogo} className="homeBut" onClick = {this.homeBackBot}></img>
       </div>
     );

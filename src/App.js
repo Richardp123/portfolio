@@ -4,6 +4,8 @@ import MountainScene from './comps/mountainScene.js';
 import MControls from './comps/MControls.js';
 import AboutMe from './comps/aboutMe.js';
 import WebDev from './comps/webDev.js';
+import ContactMe from './comps/contactMe.js';
+
 
 class App extends Component {
     
@@ -15,6 +17,7 @@ class App extends Component {
             nametag: true,
             aboutme: false,
             webdev: false,
+            contactme: false,
         }
     }
     
@@ -23,6 +26,7 @@ class App extends Component {
             aboutme: show,
             nametag:false,
             webdev: false,
+            contactme: false,
         });
     }
     
@@ -31,16 +35,30 @@ class App extends Component {
             aboutme: false,
             nametag:false,
             webdev: show,
+            contactme: false,
         });
     }
+    
+    contactMe = (show) => {
+        this.setState({
+            aboutme: false,
+            nametag: false,
+            webdev: false,
+            contactme: show,
+        });
+    }
+    
     
     homeButClick = (show) => {
         this.setState({
             aboutme: false,
             nametag: show,
             webdev: false,
+            contactme: false,
         });
     }
+    
+    
     
     
   render() {
@@ -69,6 +87,11 @@ class App extends Component {
           MainAboutMe = <div id="MAboutMe"><WebDev /></div>;
           console.log("firecrabs2");
       }
+      if(this.state.contactme == true){
+          nametag = null;
+          MainAboutMe = <div id="MAboutMe"><ContactMe /></div>;
+          console.log("firecrabs3");
+      }
       
       
       
@@ -78,7 +101,7 @@ class App extends Component {
         {nametag}
         {MainAboutMe}
         <div className="MainControls">
-        <MControls aboutMe={this.aboutMe} webDev={this.webDev} homeButClick={this.homeButClick}/>
+        <MControls aboutMe={this.aboutMe} webDev={this.webDev} contactMe={this.contactMe} homeButClick={this.homeButClick}/>
         
         </div>
       </div>
