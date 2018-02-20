@@ -451,6 +451,11 @@
     font-size: 3em;
     padding: 10px;
 }
+.devicon-github-plain{
+    font-size: 3em;
+    text-decoration: none;
+    color: #455f6d;
+}
 .iconsFlex{
    display: flex;
     justify-content: center;

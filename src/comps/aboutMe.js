@@ -76,6 +76,8 @@ class AboutMe extends Component {
         <div>
         <br/>
         <h3>Richard.Percival123@gmail.com</h3>
+        <h4>Check out my GitHub for more work</h4>
+        <a className="devicon-github-plain aboutMeIcons" href="https://github.com/Richardp123" target="_blank"></a>
         <br/>
         </div>
         
