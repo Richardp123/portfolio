@@ -66,6 +66,7 @@ class App extends Component {
       var activeComp = null;
       var nametag = null;
       var MainAboutMe = null;
+      var activeMainControl = " mainControls";
       
       let activeScene = "";
       if(this.state.activeScene == true){
@@ -100,7 +101,7 @@ class App extends Component {
         {activeComp}
         {nametag}
         {MainAboutMe}
-        <div className="MainControls">
+        <div className="mainControls">
         <MControls aboutMe={this.aboutMe} webDev={this.webDev} contactMe={this.contactMe} homeButClick={this.homeButClick}/>
         
         </div>

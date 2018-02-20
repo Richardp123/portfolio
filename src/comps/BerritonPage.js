@@ -9,7 +9,7 @@ class BerritonPage extends Component {
         
         
         
-       <div className="projectDiv">
+       <div className="projectDiv1">
         
               <div className="displayImg" id="berritonProg"></div>
                 <div className="aboutProj">
@@ -19,7 +19,6 @@ class BerritonPage extends Component {
                 <p>Berriton started as a simple web based storybook idea and quickly grew into something larger. During the development process of Berriton I was tasked with building assets, and writing HTML and CSS. Some challenges we faced were making Berriton completely responsive, and making it all connect intuitively. We also wanted to make the game simple enough that one could pick it up and complete it without confusion.</p>
           </div>
         </div>
-          <hr/>
           <div className="projectDiv">
               <div className="displayImg" id="berritonFin"></div>
                 <div className="aboutProj">
@@ -35,8 +34,11 @@ class BerritonPage extends Component {
         <i class="devicon-illustrator-plain"></i>
         <i class="devicon-photoshop-plain"></i>
         </div>
-          </div>
-         <button className="projBut">View Berriton</button>
+        </div>
+         
+        </div>
+        <div className="linkDiv">
+        <a className="projBut linkBut" href='../berriton/index.html' target="_blank">View Berriton</a>
         </div>
       </div>
     );

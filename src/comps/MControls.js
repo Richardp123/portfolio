@@ -74,7 +74,7 @@ class MControls extends Component {
       <div className={activeControl}>
         <button className="aboutMe" onClick = {this.toTopAndAboutMe}>Who am I?</button>
         <button className="webDev" onClick = {this.toTopAndWebDev}>Work</button>
-        <button className="contactMe" onClick = {this.toTopAndContactMe}>Contact Me</button>
+       {/* <button className="contactMe" onClick = {this.toTopAndContactMe}>Contact Me</button>*/}
         <img src={DeerLogo} className="homeBut" onClick = {this.homeBackBot}></img>
         
       </div>

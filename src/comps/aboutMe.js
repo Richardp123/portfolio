@@ -42,26 +42,41 @@ class AboutMe extends Component {
         <div className="aboutMeIcons">
         
         <h2>Development</h2>
+        <br/>
         
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-react-original"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-sass-original"></i>
-        <i class="devicon-github-plain"></i>
-        <i class="devicon-heroku-original"></i>
-        <i class="devicon-wordpress-plain"></i>
-        <i class="devicon-bootstrap-plain"></i>
-        <i class="devicon-nodejs-plain"></i>*
-        <i class="devicon-php-plain"></i>*
+        <i className="devicon-javascript-plain"></i>
+        <i className="devicon-html5-plain"></i>
+        <i className="devicon-react-original"></i>
+        <i className="devicon-css3-plain"></i>
+        <i className="devicon-sass-original"></i>
+        <i className="devicon-github-plain"></i>
+        <i className="devicon-heroku-original"></i>
+        <i className="devicon-wordpress-plain"></i>
+        <i className="devicon-bootstrap-plain"></i>
+        <i className="devicon-nodejs-plain"></i>*
+        <i className="devicon-php-plain"></i>*
         
         <h2>Design</h2>
         
-        <i class="devicon-illustrator-plain"></i>
-        <i class="devicon-photoshop-plain"></i>
+        <i className="devicon-illustrator-plain"></i>
+        <i className="devicon-photoshop-plain"></i>
         <p>* = beginner working knowledge of </p>
         
         </div>
+        </div>
+        
+        <h1>Get in Contact with me</h1>
+        <h3>________________</h3>
+        <div>
+        <br/>
+        <h3>Richard.Percival123@gmail.com</h3>
+        <br/>
+        </div>
+        
+        <div className="whatIUse">
+        <br/>
+        <p>Richard Percival, 2018</p>
+        <br/>
         </div>
         
         

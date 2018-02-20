@@ -141,6 +141,15 @@
 
 /* Beginning Controls*/
 
+.MControls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
 .MControls button {
     position: relative;
     top: 45vh;
@@ -165,6 +174,13 @@
 
 /* Beginning Controls End*/
 
+@media screen and (max-height: 720px) {
+    .MControls {
+    top: -47%;
+    }
+}
+
+
 @media screen and (max-width: 450px) and (min-width: 200px) {
     
     
@@ -172,7 +188,10 @@
     width: 45px;
     height: 45px;
 }
-    
+        
+.MControls {
+    top: 50%;
+}
     
   
     .MControls button {
@@ -213,6 +232,7 @@
 }
 
 .MControlsTop button {
+    top: 0;
     right: 0;
     font-weight:bold;
     padding-left: 20px;
@@ -406,6 +426,9 @@
 }
 
 .aboutMeIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 5px;
     padding-bottom: 50px;
 }
@@ -425,7 +448,7 @@
     
     .whatIDoFlex{
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
     }
     
     .whatIDo1 {
@@ -473,7 +496,7 @@
 
 .webDevelopment {
     position: absolute;
-     width: 100%;
+     width: 102%;
     height: auto;
     background-color: #cee2ed;
     color: #595959;
@@ -503,32 +526,49 @@
     padding-bottom: 40px;
     
 }
+.projectDiv1 {
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    top: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #cee2ed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
 
 .displayImg {
+    position: relative;
     width: 400px;
     height: 300px;
-    margin-right: 50px;
 }
 
 #berritonFin{
     background-image: url(../img/berritonImg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain
+    background-size: contain;
 }
 
 #forGloryFin{
     background-image: url(../img/forGloryImg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain
+    background-size: contain;
 }
 
 #astroAdventuresFin{
     background-image: url(../img/astroAdventuresImg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain
+    background-size: contain;
 }
 
 .aboutProj {
@@ -558,6 +598,7 @@
     border-style: none;
     background-color: #D1EFFF;
     font-family: 'Cabin', sans-serif;
+    text-decoration: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
@@ -581,9 +622,9 @@
 }
     
     .displayImg {
-    width: 100%;
-    height: 300px;
-    margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    width: 80%;
 }
    
     
@@ -593,6 +634,12 @@
         padding-left: 5%;
         padding-right: 5%;
 }
+    
+    
+#berritonProg{
+    margin-right: auto;
+    margin-left: auto;
+    }
 }
 
 /* PROJECT PAGES */
@@ -601,6 +648,17 @@
     animation:fadeIn 0.5s forwards;
     background-color: #cee2ed;
     color: #444444;
+    width: 100%;
+}
+
+.linkDiv{
+    height: 300px;
+    width: 100%;
+}
+
+.linkBut{
+    position: relative;
+    top: 120px;
 }
 
     /* BERRITON PROJECT PAGE */
@@ -619,6 +677,8 @@
 /* FOR GLORY PROJECT PAGE */
 
 #forGloryProg{
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
     height: 300px;
     box-sizing: border-box;
@@ -630,6 +690,8 @@
 }
 
 #astroAdventuresProg{
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
     height: 300px;
     box-sizing: border-box;
