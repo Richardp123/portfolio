@@ -9,35 +9,36 @@ class ForGloryPage extends Component {
         
         
         
-       <div className="projectDiv">
+       <div className="projectDiv1">
         
               <div className="displayImg" id="forGloryProg"></div>
                 <div className="aboutProj">
-              <h1>From Ideation, to Creation</h1>
-                <h3>The Process</h3>
+              <h1>For Glory</h1>
+                <h3>From Ideation to Creation</h3>
           <p>_____________________________________________</p>
-                <p>Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, </p>
+                <p>In the third term of my program at BCIT I was required to come up with an idea for a web app that would be made into a full-fledged app. I came up with the idea for For Glory and presented it to all the sets in my program then all the presented ideas were voted on. The ideas with the most votes then became our term projects, as For Glory was mine. </p>
           </div>
         </div>
-          <hr/>
           <div className="projectDiv">
               <div className="displayImg" id="forGloryFin"></div>
                 <div className="aboutProj">
-              <h1>finished proj</h1>
-                <h3>this is whats what</h3>
+              <h1>Finished Project</h1>
           <p>_____________________________________________</p>
-                <p>Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, Lorem ipsum amet dolor amet sit gil library, </p>
+                <p>For Glory is an online, turn-based strategy card game, you take turns playing against another person using cards to boost your characters attack and defense.</p>
           <h2>What I Used</h2>
           
-        <div className="aboutMeIcons">
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-illustrator-plain"></i>
-        <i class="devicon-photoshop-plain"></i>
+        <div className="aboutMeIconsProj">
+        <i className="devicon-javascript-plain"></i>
+        <i className="devicon-html5-plain"></i>
+        <i className="devicon-css3-plain"></i>
+        <i className="devicon-illustrator-plain"></i>
+        <i className="devicon-photoshop-plain"></i>
         </div>
-          </div>
-         <button className="projBut">View Berriton</button>
+        </div>
+         
+        </div>
+        <div className="linkDiv">
+        <a className="projBut linkBut" href='http://bcit-for-glory.herokuapp.com/' target="_blank">View For Glory</a>
         </div>
       </div>
     );

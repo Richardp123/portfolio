@@ -10,7 +10,7 @@ class AboutMe extends Component {
         <h3>________________</h3>
         <div className="whoAmIFlex">
         <div className="richardPic"></div>
-        <p>Hey! My name is Richard Percival, I&apos;m a front-end web developer who also has a passion for art/design. <br/><br/>
+        <p>Hey! My name is <b>Richard Percival</b>, I&apos;m a <b>front-end</b> web developer who also has a passion for art/design. <br/><br/>
         I am currently a student in my last semester at the British Columbia Institute of Technology doing the Digital Design, and Development program. In this program I have learn&apos;t many things and have found a passion for web development. </p>
         </div>
         </div>
@@ -24,7 +24,7 @@ class AboutMe extends Component {
         <div className="whatIDoFlex">
         <div className="whatIDo1">
         <h2>Front-End Web Development</h2>
-        <p>I build websites and web apps that are responsive, and user friendly.</p>
+        <p>I build websites and web apps that are responsive and user friendly.</p>
         </div>
         
         <div className="whatIDo2">
@@ -40,9 +40,9 @@ class AboutMe extends Component {
         <h3>________________</h3>
         <p>I use a wide variety of design, and development tools to get my work done. <br /> Here are some of the tools I use to do that</p>
         <div className="aboutMeIcons">
-        
         <h2>Development</h2>
-        <br/>
+        <div className="iconsFlex">
+        
         
         <i className="devicon-javascript-plain"></i>
         <i className="devicon-html5-plain"></i>
@@ -55,12 +55,18 @@ class AboutMe extends Component {
         <i className="devicon-bootstrap-plain"></i>
         <i className="devicon-nodejs-plain"></i>*
         <i className="devicon-php-plain"></i>*
+        </div>
         
+        <div>
         <h2>Design</h2>
         
         <i className="devicon-illustrator-plain"></i>
         <i className="devicon-photoshop-plain"></i>
+        </div>
+        
+        <div>
         <p>* = beginner working knowledge of </p>
+        </div>
         
         </div>
         </div>

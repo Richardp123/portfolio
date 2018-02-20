@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './comps.css';
 import BerritonPage from './BerritonPage.js';
 import ForGloryPage from './forGloryPage.js';
+import AstroAdventuresPage from './astroAdventuresPage.js';
 
 class WebDev extends Component {
     constructor(props){
@@ -112,7 +113,7 @@ class WebDev extends Component {
                 <h3>Fantasy Outer Space Travel Site</h3>
           <p>_____________________________________________</p>
                 <p>Astro-Adventures was the first website I built at BCIT. It is purely HTML, and CSS. It was the first term project. We were tasked with building a simple, resposive, webpage on any topic.</p>
-                <button className="projBut" onClick={this.goForGlory}>See This Project!</button>
+                <button className="projBut" onClick={this.goAstroAdventures}>See This Project!</button>
           </div>
         </div>
                 
@@ -129,6 +130,10 @@ class WebDev extends Component {
       } else if(this.state.seeForGlory == true){
           
           workpage = <ForGloryPage />;
+          
+      } else if(this.state.seeAstroAdventures == true){
+          
+          workpage = <AstroAdventuresPage />;
           
       }
       

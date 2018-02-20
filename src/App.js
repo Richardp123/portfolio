@@ -71,7 +71,6 @@ class App extends Component {
       let activeScene = "";
       if(this.state.activeScene == true){
           activeScene = " activeScene";
-          console.log("bickers")
       }
       
       if(this.state.homepage == true){
@@ -81,17 +80,14 @@ class App extends Component {
       if(this.state.aboutme == true){
           nametag = null;
           MainAboutMe = <div id="MAboutMe"><AboutMe /></div>;
-          console.log("firecrabs");
       }
       if(this.state.webdev == true){
           nametag = null;
           MainAboutMe = <div id="MAboutMe"><WebDev /></div>;
-          console.log("firecrabs2");
       }
       if(this.state.contactme == true){
           nametag = null;
           MainAboutMe = <div id="MAboutMe"><ContactMe /></div>;
-          console.log("firecrabs3");
       }
       
       

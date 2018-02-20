@@ -224,9 +224,9 @@
     .MControlsTop {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     font-size: 0.8em;
-    width: 100vw;
+    width: 102%;
     display: flex;
     justify-content: flex-end;
 }
@@ -359,6 +359,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 30px;
     font-size: 1.2em;
     font-weight: 300;
@@ -428,17 +429,33 @@
 .aboutMeIcons {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     padding: 5px;
     padding-bottom: 50px;
 }
+.aboutMeIconsProj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+.aboutMeIconsProj i {
+    
+    font-size: 3em;
+    padding: 10px;
+}
 .aboutMeIcons i {
     
     font-size: 3em;
-    padding: 5px;
+    padding: 10px;
 }
-
-
+.iconsFlex{
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 @media screen and (max-width: 450px) and (min-width: 200px) {
     
     .aboutMeDiv {
@@ -574,6 +591,7 @@
 .aboutProj {
     width: 800px;
     height: auto;
+    padding-left: 4%;
 }
 
 .aboutProj h1{
@@ -698,7 +716,7 @@
     border-style: solid;
     border-color: #455f6d;
     border-width: 15px;
-    background-image: url(../img/astroAdventuresImg.png);
+    background-image: url(../img/astroAdventuresProg.PNG);
     background-position: center;
 }
 
